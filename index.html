@@ -1,11 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Locomohistoria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
-    <h1>yeah</h1>
+<body style="background-color: floralwhite;">
+    <nav class="navbar navbar-expand-lg" style="background-color: darkolivegreen;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" style="color: goldenrod; font-weight: bold; font-size: x-large;">Locomohistoria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" style="color: white;">Locomotoras</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index09.html">BREL clase 09</a></li>
+                            <li><a class="dropdown-item" href="indexF7.html">EMD F7</a></li>
+                            <li><a class="dropdown-item" href="indexA4.html">LNER A4</a></li>
+                            <li><a class="dropdown-item" href="index4014.html">UP 4014</a></li>
+                            <li><a class="dropdown-item" href="indexCe.html">Ce 6/8</a></li>
+                            <li><a class="dropdown-item" href="indexETR.html">ETR 464</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div style="background-image: url(cover.jpg); width: 100%; height: 75vh; background-size: cover; background-position: center; display: flex; flex-direction: column; justify-content: flex-end;">
+        <h1 style="text-align: center; color: goldenrod; font-weight: bolder; font-size: 5rem">Locomohistoria</h2>
+    </div>
+    <div style="background-color: white; padding: 2rem; border-radius: 2rem; width: 70%; margin: 0 auto;">
+        <h4 style="text-align: center;">Las locomotoras han sido fundamentales en el desarrollo del transporte y la industria, ya que permitieron trasladar grandes cantidades de personas y mercancías a largas distancias de manera más rápida y eficiente que antes. Jugaron un papel crucial durante la Revolución Industrial, acelerando la expansión de las ciudades y la economía. Además, contribuyeron al desarrollo de infraestructuras, como las vías férreas, que conectaron regiones y facilitaron el comercio internacional. Las locomotoras también influyeron en la evolución de otros modos de transporte y siguen siendo parte esencial de los sistemas ferroviarios actuales.</h4>
+    </div>
+    
+    <div class="container" style="margin-top: 2rem;">
+        <div class="row justify-content-evenly">
+            <div class="col" style="margin-top: 1rem; background-color: darkolivegreen; padding: 1rem; border-radius: 3rem; border: 1rem solid floralwhite;">
+                <h1 style="text-align: center; color: goldenrod; font-weight: bold;">Diesel</h1>
+                <div class="row" style="border: 1rem solid darkolivegreen; background-color: white; border-radius: 3rem; text-align: center;">
+                    <h2>BREL clase 09</h2>
+                    <img onclick="window.location.href='index09.html';" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/09_008_Coalville_Open_Day_25th_may_1991.jpg/1200px-09_008_Coalville_Open_Day_25th_may_1991.jpg" style="border-radius: 2rem; padding-bottom: 1rem; cursor: pointer;">
+                    <h2>EMD F7</h2>
+                    <img onclick="window.location.href='indexF7.html';" src="https://images.squarespace-cdn.com/content/v1/5ef5133fe97a1d249ac3fe6b/1593545568826-2CTMGBGAUMZ7X8FQFCCS/DSC_0082.JPG" style="border-radius: 2rem; padding-bottom: 1rem; cursor: pointer;">
+                </div>
+            </div>
+            <div class="col" style="margin-top: 1rem; background-color: darkolivegreen; padding: 1rem; border-radius: 3rem; border: 1rem solid floralwhite;">
+                <h1 style="text-align: center; color: goldenrod; font-weight: bold;">Vapor</h1>
+                <div class="row" style="border: 1rem solid darkolivegreen; background-color: white; border-radius: 3rem; text-align: center;">
+                    <h2>LNER A4</h2>
+                    <img onclick="window.location.href='indexA4.html';" src="https://directoryproductimages.blob.core.windows.net/subcategories/1003203.jpg?v=030225-092526" style="border-radius: 2rem; padding-bottom: 1rem; cursor: pointer;">
+                    <h2>UP 4014</h2>
+                    <img onclick="window.location.href='index4014.html';" src="https://www.up.com/cs/groups/public/@uprr/@newsinfo/documents/digitalmedia/img_up_media_bigboy_4014_np_l.jpg" style="border-radius: 2rem; padding-bottom: 1rem; cursor: pointer;">
+                </div>
+            </div>
+            <div class="col" style="margin-top: 1rem; background-color: darkolivegreen; padding: 1rem; border-radius: 3rem; border: 1rem solid floralwhite;">
+                <h1 style="text-align: center; color: goldenrod; font-weight: bold;">Eléctrico</h1>
+                <div class="row" style="border: 1rem solid darkolivegreen; background-color: white; border-radius: 3rem; text-align: center;">
+                    <h2>Ce 6/8</h2>
+                    <img onclick="window.location.href='indexCe.html';" src="https://upload.wikimedia.org/wikipedia/commons/9/98/SBB_Ce_6-8_II_%22Krokodil%22_Nr._14270_in_Erstfeld.jpg" style="border-radius: 2rem; padding-bottom: 1rem; cursor: pointer;">
+                    <h2>ETR 464</h2>
+                    <img onclick="window.location.href='indexETR.html';" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Trieste_Centrale_E464.jpg/1200px-Trieste_Centrale_E464.jpg" style="border-radius: 2rem; padding-bottom: 1rem; cursor: pointer;">
+                </div>
+            </div>
+        </div>            
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
